@@ -18,6 +18,18 @@ int main(){
         {0,0,0,0,0,0,0,0,0,0},
     };
 
+    //Definindo o primeiro navio na diagonal
+
+    tabuleiro[8][1] = 3;
+    tabuleiro[7][2] = 3;
+    tabuleiro[6][3] = 3;
+
+    //Definindo segundo navio na diagonal
+
+    tabuleiro[2][4] = 3;
+    tabuleiro[1][5] = 3;
+    tabuleiro[0][6] = 3;
+
     //Definindo os quadrantes dos navios na Horizontal
     tabuleiro[7][4] = 3;
     tabuleiro[7][5] = 3;
